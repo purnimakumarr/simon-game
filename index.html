@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simon Game</title>
 
     <!-- Google Fonts -->
@@ -19,14 +21,36 @@
       <h1 class="title">Press A Key To Start</h1>
     </div>
     <div class="btns-container">
-      <button class="btn btn-green" title="Green" aria-label="Green"></button>
-      <button class="btn btn-red" title="Red" aria-label="Red"></button>
+      <button
+        class="btn btn-green"
+        id="green"
+        title="Green"
+        aria-label="Green"
+      ></button>
+      <button
+        class="btn btn-red"
+        id="red"
+        title="Red"
+        aria-label="Red"
+      ></button>
       <button
         class="btn btn-yellow"
+        id="yellow"
         title="Yellow"
         aria-label="Yellow"
       ></button>
-      <button class="btn btn-blue" title="Blue" aria-label="Blue"></button>
+      <button
+        class="btn btn-blue"
+        id="blue"
+        title="Blue"
+        aria-label="Blue"
+      ></button>
     </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- js -->
+    <script src="game.js" charset="utf-8"></script>
   </body>
 </html>
