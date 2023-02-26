@@ -24,6 +24,7 @@ body {
   text-align: center;
   margin-bottom: 9.6rem;
   color: #fef2bf;
+  line-height: 1.4;
 }
 
 .btns-container {
@@ -41,6 +42,7 @@ body {
   height: 22rem;
   border-radius: 20%;
   border: 10px solid #000000;
+  cursor: pointer;
 }
 
 .btn-red {
@@ -59,7 +61,20 @@ body {
   background-color: green;
 }
 
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
 @media (max-width: 48em) {
+  .title {
+    font-size: 4.8rem;
+  }
   .btns-container {
     grid-template-columns: 1fr;
   }
